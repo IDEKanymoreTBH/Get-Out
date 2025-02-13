@@ -1,0 +1,45 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+head {
+    background-color: cyan;
+}
+input:focus {
+    border-color: rgb(179, 0, 0); 
+}
+#Button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 200px;
+    visibility: visible;
+}
+#Number {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+    visibility: visible;
+}
+#Button2 , #Button3{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 200px;
+    visibility: hidden;
+}
+#Number2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+    visibility: hidden;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    position: relative;
+}
